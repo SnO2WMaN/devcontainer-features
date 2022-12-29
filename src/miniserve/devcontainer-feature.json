@@ -1,0 +1,13 @@
+{
+    "name": "miniserve",
+    "id": "miniserve",
+    "version": "1.0.0",
+    "description": "A feature to install miniserve",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "0.22.0",
+            "description": "miniserve version"
+        }
+    }
+}

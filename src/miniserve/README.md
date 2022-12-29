@@ -1,14 +1,14 @@
 
-# Hello, World! (hello)
+# miniserve
 
-A hello world feature
+Install [miniserve](https://github.com/svenstaro/miniserve).
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
-        "version": "latest"
+    "ghcr.io/sno2wman/devcontainers-features/miniserve:1": {
+        "version": "0.22.0"
     }
 }
 ```
