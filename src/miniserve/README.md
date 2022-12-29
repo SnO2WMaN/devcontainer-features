@@ -1,15 +1,13 @@
 
-# miniserve
+# miniserve (miniserve)
 
-Install [miniserve](https://github.com/svenstaro/miniserve).
+A feature to install miniserve
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/sno2wman/devcontainers-features/miniserve:1": {
-        "version": "0.22.0"
-    }
+    "ghcr.io/SnO2WMaN/devcontainer-features/miniserve:1": {}
 }
 ```
 
@@ -17,10 +15,10 @@ Install [miniserve](https://github.com/svenstaro/miniserve).
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| version | miniserve version | string | 0.22.0 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/SnO2WMaN/devcontainer-features/blob/main/src/miniserve/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
